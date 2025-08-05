@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bat Ball Stump Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bat Ball Stump Game</h1>
+
+    <div class="buttons">
+      <button class="choice-button" data-move="Bat">
+        <img src="https://static.vecteezy.com/system/resources/previews/016/283/763/original/cricket-bat-cartoon-style-vector.jpg" alt="Bat" class="choice-image">
+      </button>
+
+      <button class="choice-button" data-move="Ball">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.sdH9zqCbbF_uqW4SfdkNpgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ball" class="choice-image">
+      </button>
+
+      <button class="choice-button" data-move="Stump">
+        <img src="https://static.vecteezy.com/system/resources/previews/036/242/455/original/cricket-stumps-icon-clipart-avatar-logotype-isolated-illustration-vector.jpg" alt="Stump" class="choice-image">
+      </button>
+    </div>
+
+    <div class="results">
+      <h3 id="user-move"></h3>
+      <h3 id="computer-move"></h3>
+      <h3 id="result" class="result-text"></h3>
+      <h3 id="score"></h3>
+    </div>
+
+    <button id="reset-button">Reset Score</button>
+  </div>
+
+  <script src="cricket.js"></script>
+</body>
+</html>
